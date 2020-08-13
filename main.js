@@ -19,8 +19,8 @@
  *  color: String
  * }
  */
-const mapStateToProps = ({ id }) => ({
-    getDetail: () => console.log(id),
+const mapStateToProps = (state) => ({
+    getDetail: () => console.log(state.id),
     color: 'Color State'
 })
 
